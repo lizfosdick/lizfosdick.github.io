@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  align-items: center;
+  width: 70%;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 600px) {
+  .main-intro {
+    flex-wrap: wrap;
+  }
+}
+
+.main-intro-text {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+
+
+p {
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    flex-wrap: wrap;
+  }
+}
+
+.li {
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+/* */
+
+.links-icon {
+  padding-right: 10px;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  padding-top: 20px;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 720px) {
+  .project {
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.project-section {
+  margin: 20px;
+  width: 50%;
+  /* padding: 8px; */
+}
+
+@media screen and (max-width: 720px) {
+  .project-section {
+    width: 100%;
+  }
+}
+
+.graphics {
+  border-style: solid;
+  border-color: darkgray;
+  border-width: 1px;
+}
+
+.other-stuff-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* width: 70%; */
+  padding-top: 40px;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 900px) {
+  .other-stuff-section {
+    flex-wrap: wrap;
+  }
+}
+
+.other-stuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* width: 33%; */
+}
+
+.other-stuff-heading {
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .other-stuff-heading {
+    width: 60%
+  }
+}
+
+.heading {
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    width: 25%
+  }
+}
+
+.skills {
+  align-items: flex-start;
+  width: 70%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
